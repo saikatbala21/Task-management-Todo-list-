@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3{
+  color: blue;
+  padding: 20px;
+}
+.home{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  gap:50px;
+
+  
+}
+.emp1{
+   padding-left: 14%;
+   width: 600px;
+   height: 600px;
+   border: 1px;
+   box-shadow:rgba(0,0, 0,0.5);
+   background-color: rgb(169, 185, 194);
+   box-sizing: border-box;
+   margin-right: 40px;
+   border-radius: 5px;
+   
+}
+.emp1 h3{
+  width:200px;
+  padding-left: 24%;
+  font-size: 2rem;
+  color:brown
+}
+.emps{
+  border-radius: 5px;
+}
+.emp-details{
+  margin-left: 10rem;
+  margin-top:30px;
+  padding: 10px;
+  padding-left:80px;
+  position: relative;
+  box-shadow: 1px 1px 4px rgba(0,0, 0,0.5);
+  background-color: rgb(230, 218, 229);
+  border-radius: 5px;
+
+}
+.emp-details h4{
+  margin: 0 0 10px 0;
+  color: rgb(89, 0, 255);
+  padding-left:20%;
+  width: 150px;
+}
+.emp-details p{
+  color: rgb(12, 95, 75);
+}
+label{
+  padding: 10px;
+  color: blueviolet;
+  
+}
+label,input{
+  display:inline-flex;
+  align-items: center;
+}
+.epmform{
+  padding: 10px;
+}
+input{
+  width:320px;
+  height: 22px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.button1{
+  padding:10px;
+  padding-top: 30px;
+}
+#button{
+  padding: 8px;
+  background-color: rgb(136, 115, 200);
+  border-radius: 4px;
+  color: aliceblue;
+  
+}
+#from1{
+  margin-left: 55px;
+  padding: 10px;
+  border:1px;
+}
+#from2{
+  margin-left:12px;
+  padding: 15px;
+   border:1px;
+}
+#from3{
+  margin-left: 44px;
+  padding: 5px;
+  border:1px;
+  border-radius: 4px;
+  color: brown;
+}
+
+#from4{
+
+  margin-left: 23px;
+  align-items: center;
+  width: 100px;
+  border:1px;
+   color: brown;
+}
+span{
+  padding: 10px;
+  color: rgb(9, 115, 81);
+}
+#but1{
+  background-color: rgb(57, 116, 150);
+  color: whitesmoke;
+  border-radius: 3px;
+  margin-left: 20px;
+}
