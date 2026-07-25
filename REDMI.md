@@ -28,8 +28,7 @@ npm run dev
 http://localhost:8081
 
 ## Git repository link
-
-https://github.com/saikatbala21/Todo-list.git
+https://github.com/saikatbala21/Task-management-Todo-list-
 
 ## Create React app
 npx create-react-app frontend(My app name)
