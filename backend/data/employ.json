@@ -1,0 +1,26 @@
+{
+    "employ":[
+        {
+        "id":"101",
+        "name":"Bittu Biswas",
+        "age":"29",
+        "department":"Account",
+        "salary":"30000"
+        },
+        {
+        "id":"102",
+        "name":"Raju sen",
+        "age":"39",
+        "department":"HR",
+        "salary":"40000"
+
+        },
+        {
+        "id":"103",
+        "name":"Rahul Das",
+        "age":"32",
+        "department":"IT",
+        "salary":"30000"
+        }
+    ]
+}
