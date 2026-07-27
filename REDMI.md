@@ -28,6 +28,7 @@ npm run dev
 http://localhost:8081
 
 ## Git repository link
+
 https://github.com/saikatbala21/Task-management-Todo-list-
 
 ## Create React app
@@ -177,3 +178,56 @@ The Task Controller contains all the logic for handling CRUD operations on Tasks
 
     User updates status → PATCH /tasks/:id/status, updates context.
         
+
+## Frontend Functionality
+
+    Display All Tasks:
+            File: Home.js
+            Flow: 
+                On page load, useEffect calls getTasks() from TaskService.
+
+                The response (/tasks) is dispatched into context (SET_TASKS).
+
+                Tasks are rendered via TaskDetails components.
+
+    Add New Tasks:
+               File: TaskForm.js
+               Flow: User fills out the form and submits.
+
+                createTask() posts data to /tasks.
+
+                On success, context updates with the new task.
+
+                UI re‑renders to show the new task immediately.
+
+   Update Task Status:
+                File: TaskDetails.js
+                Flow:  Each task has a status (Pending ->In Progress->Completed)
+
+                        Clicking the status button triggers updateTaskStatus()PATCH /tasks/:id/status.
+
+                        Context updates with the new status.
+
+                        UI reflects the change instantly.
+    
+    Delete Tasks:
+                File: TaskDetails.js
+                Flow: User clicks delete.
+
+                      deleteTask() calls DELETE /tasks/:id.
+
+                      On success, context removes the task.
+
+                      UI re‑renders without the deleted task.
+                       
+    Search Tasks:
+                File: Home.js
+                Flow: User types a keyword and submits.
+
+                       searchTasks() calls /tasks/search?keyword=(Any word or latter)
+
+                       Backend filters tasks by title or description.
+
+                       Context updates with search results.
+
+                       If no matches, frontend shows "No tasks found" message.
